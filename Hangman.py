@@ -1,6 +1,7 @@
 # Hangman
 
 import time
+from random import *
 
 name = input("what is your name? : ")
 
@@ -17,7 +18,8 @@ time.sleep(0.5)
 
 
 # 정답 단어
-word = "secret"
+word = ["apple", "banana", "orange"]
+word = choice(word)
 
 # 추측 단어
 guesses = ''
