@@ -68,8 +68,3 @@ while turns > 0 :
     if turns == 0:
             # 실패 메시지
         print("Failed.")    
-
-
-
-
-.asdf           
